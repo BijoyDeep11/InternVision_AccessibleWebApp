@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+    color: #222;
+}
+
+header, nav, main, footer{
+    padding: 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0077cc;
+}
+
+nav a:focus, nav a:hover{
+    outline: 2px solid #0077cc;
+    border-radius: 4px;
+}
+
+.skip-link{
+    position: absolute;
+    left: -999px;
+    top: auto;
+    background: #0077cc;
+    color: white;
+    padding: 8px;
+}
+
+.skip-link:focus{
+    left: 1rem;
+    top: 1rem;
+}
