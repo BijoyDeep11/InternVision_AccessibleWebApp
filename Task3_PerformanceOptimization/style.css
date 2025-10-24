@@ -3,8 +3,12 @@ body{
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f9fafb;
+    background-color: #f8f8f8;
     color: #222;
+}
+
+a{
+    color: #0056b3;
 }
 
 header, nav, main, footer{
@@ -42,4 +46,9 @@ nav a:focus, nav a:hover{
 .skip-link:focus{
     left: 1rem;
     top: 1rem;
+}
+
+:focus{
+    outline: 3px solid #ff9800;
+    outline-offset: 2px;
 }
